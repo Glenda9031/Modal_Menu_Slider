@@ -39,4 +39,101 @@ nav .logo {
     text-align: center;
 }
 
+nav .logo img {
+    height: 4.6875rem;
+    width: 4.6875rem;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    border-bottom: .125rem solid rgba(200, 200, 200, 0.1);
+    padding: 1.25rem;
+}
+
+nav ul li:first-of-type {
+    border-top: 0.125rem solid rgba(200, 200, 200, 0.1);
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 130%;
+    position: relative;
+    padding: 2.5rem .9375rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 1.875rem 0;
+}
+
+button,
+input[type="text"] {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: .3125rem;
+    color: #fff;
+    padding: .5rem .75rem;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+.toggle {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 1.25rem;
+    left: 1.25rem;
+}
+
+.cta-btn {
+    padding: .75rem 1.875rem;
+    font-size: 1.25rem;
+}
+
+.container {
+    padding: .9375rem;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 50rem;
+}
+
+.modal-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.modal-container.show-modal {
+    display: block;
+}
+
+
+
+
 
