@@ -133,7 +133,20 @@ button:focus {
     display: block;
 }
 
-
+.modal {
+    background-color: #fff;
+    border-radius: .3125rem;
+    box-shadow: 0 0 .625rem rgba(0, 0, 0, 0.3);
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    width: 25rem;
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+}
 
 
 
