@@ -148,5 +148,50 @@ button:focus {
     animation-duration: var(--modal-duration);
 }
 
+.modal-header {
+    background: var(--primary-color);
+    color: #fff;
+    padding: .9375rem;
+}
+
+.modal-header h3 {
+    margin: 0;
+    border-bottom: .0625rem solid #333;
+}
+
+.modal-content {
+    padding: 1.25rem;
+}
+
+.modal-form div {
+    margin: .9375rem 0;
+}
+
+.modal-form label {
+    display: block;
+    margin-bottom: .3125rem;
+}
+
+.modal-form .form-input {
+    width: 100%;
+    padding: .5rem;
+}
+
+.close-btn {
+    background: transparent;
+    font-size: 1.5625rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 
